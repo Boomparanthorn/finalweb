@@ -1,0 +1,27 @@
+{% extends 'frontend/base.html' %}
+{% block title %} Sign in {% endblock %}
+{% block content %}
+<div class="container">
+    <form>
+        <br>
+        <br>
+        <h5>Name</h5>   
+        :  {{Fristname}} {{Lastname}}
+        <br>
+        <h5>Email</h5>
+        :  {{Email}}
+        <br>
+        <h5>Address</h5>
+        :  {{Main}}
+        <br>
+        <h5>Address2</h5>
+        :  {{Main2}}
+        <br>
+        <h5>City</h5>
+        :  {{city}}
+        <br>
+        <h5>Zip</h5>
+        :  {{zip}}
+  </form>
+</div>
+{% endblock %}
